@@ -103,6 +103,7 @@ body {
 .priority-colors-container{
   height: 100%;
   width:25% ;
+  /* means iske ander bnde aa jaaye yeh inline ho jaaye  */
   display: flex;
   flex-direction: column;
   align-items: center;
