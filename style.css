@@ -60,6 +60,7 @@ body {
   display:flex
 }
 
+/* action button ke saare children  */
 .action-btn-cont>*{
   display: flex;
   justify-content: center;
@@ -67,15 +68,15 @@ body {
   font-size: 2rem;
   align-items: center;
   color: white;
-
 }
 
 
 
 .modal-cont{
-  height: 50vh;
+  height: 50vh; /*screen ka aadha  */
   width: 45vw;
   background: lightblue;
+  /* position absolute aapki screen se bhaar aa jaati h , toh aapke badd option khul jaata h top , right , left , aapke screen ka part nhi rheta yeh  */
   position: absolute;
   top : 30%;
   left : 25%;
