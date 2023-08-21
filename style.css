@@ -116,12 +116,14 @@ body {
   width: 5rem;
 }
 
-
+/* start for ticket container which is show after adding a task  */
+/* main container wo h jisme yeh saare ticket show honge mtb ek badi space  */
 .main-cont{
   display:flex;
   gap:2rem;
   justify-content: center;
   padding: 2rem;
+  /* ticket jb add hongi toh saath saath ayenge but last waali ticket bhi fas jayegi toh uske liye wrap kra h ki space wasete na ho  */
   flex-wrap: wrap;
 }
 
@@ -158,14 +160,14 @@ body {
 
 
 .remove-btn:hover{
-  background-color: #4BB543;
+  background-color: red;
 }
 
 
 .toolbox-priority-cont>*:hover{
         background-color: #485460;
 }
-
+/* design part over */
 
 .active{
   border: 5px solid coral;
