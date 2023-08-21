@@ -1,4 +1,7 @@
 let addBtn = document.querySelector(".add-btn");
+// addBtn.addEventListener('click' , function(){
+//   alert("button is clicked");
+// })
 let modalCont = document.querySelector(".modal-cont");
 let mainCont = document.querySelector(".main-cont");
 let taskArea = document.querySelector(".textArea-cont");

@@ -80,8 +80,8 @@ body {
   position: absolute;
   top : 30%;
   left : 25%;
+  /* isko none kra diya h mtb nhi dikhega  */
   display: none;
-
 }
 
 
