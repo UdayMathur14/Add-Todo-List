@@ -97,10 +97,11 @@ allPriorityColors.forEach(function (colorElem) {
   });
 });
 
+// after click on modal the modal should be converted into ticket 
 modalCont.addEventListener("keydown", function (e) {
   let key = e.key;
 
-  if (key == "Shift") {
+  if (key == 'Shift') {
     createTicket(taskArea.value, modalPriorityColor);
     modalCont.style.display = "none";
     addFlag = false;
@@ -110,6 +111,7 @@ modalCont.addEventListener("keydown", function (e) {
 
 function createTicket(ticketTask, ticketColor, ticketID) {
   let id = ticketID || shortid();
+  // phela ticket container bn gya 
   let ticketCont = document.createElement("div");
   ticketCont.setAttribute("class", "ticket-cont");
 
